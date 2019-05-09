@@ -19,5 +19,6 @@ from django.conf.urls import url
 
 urlpatterns = [
     url('admin/', admin.site.urls),
-    url('main/', include('firstsite.urls')),
+    url(r'^', include('mainapp.urls')),
+
 ]
