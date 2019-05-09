@@ -3,7 +3,6 @@ from . import views
 
 urlpatterns = {
     url('', views.index, name='index'),
-    url(r'^contact/$', views.contact, name='contact'),
+    url('contact', views.contact, name='contact'),
 
 }
-
