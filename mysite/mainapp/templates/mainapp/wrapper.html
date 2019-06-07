@@ -14,21 +14,24 @@
     <div class="container">
 
         <h1>{% include "mainapp/includes/some.html"%}</h1>
-         {% block content %}
-
-            {% endblock %}
-
-
         <a href="/" class="btn btn-success btn-lg"> Главная страница</a>
         <a href="/news" class="btn btn-primary btn-lg">Новости</a>
         <a href="/contact" class="btn btn-info btn-lg">Контакты</a>
     </div>
 
+
 </div>
+ <div class="container">
+        {% block content %}
+
+            {% endblock %}
+    </div>
+
+<div>
 <div class="container">
     <img src="{% static 'mainapp/image/pubg_PNG62.png' %}" class="img-fluid">
 
 </div>
-
+</div>
 </body>
 </html>
