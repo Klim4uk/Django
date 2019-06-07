@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d45aaf47-bcb3-4cec-93cd-cb6892a8c5fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/mainapp/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/mainapp/wrapper.html" afterDir="false" />
-    </list>
+    <list default="true" id="d45aaf47-bcb3-4cec-93cd-cb6892a8c5fc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
