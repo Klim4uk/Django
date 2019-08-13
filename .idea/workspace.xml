@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a768bf-7739-41bc-86fd-24c20e8ec8bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/templates/news/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mainapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/news/templates/news/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/templates/news/posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/news/templates/news/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/templates/news/post.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553713643975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add workspace">
+      <created>1565722228449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565722228449</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

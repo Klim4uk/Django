@@ -2,6 +2,8 @@
 
 {% block content %}
     <h2 class = 'text-info'>{{articles.title}}</h2>
+    <h8 class = 'text-info'>{{articles.author}}</h8>
+    <br>
     <h7 class = 'text-info'>Опубликовано: {{articles.data|date:'Y-m-d в H:i '}}</h7>
     <p>{{articles.post|safe|linebreaks}}</p>
 
