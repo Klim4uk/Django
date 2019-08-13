@@ -3,8 +3,8 @@ from django.urls import include, path
 from django.conf.urls import url
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^', include('mainapp.urls')),
-    url(r'^news/', include('news.urls')),
+    path('admin/', admin.site.urls),
+    path('', include('mainapp.urls')),
+    path('news/', include('news.urls')),
 
 ]
