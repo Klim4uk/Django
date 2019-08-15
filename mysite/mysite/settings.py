@@ -34,13 +34,23 @@ INSTALLED_APPS = [
     'mainapp',
     'news',
 
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+   #'allauth.socialaccount.providers.facebook',
+    #'allauth.socialaccount.providers.instagram',
+    #'allauth.socialaccount.providers.google',
+
     'django.contrib.admin',
     'django.contrib.auth',
+    'django.contrib.sites',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
+
+
 ]
 
 AUTH_USER_MODEL = 'users.User'
@@ -105,6 +115,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTHENTICATION_BACKENDS = (
+
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+
+)
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
@@ -118,6 +134,13 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+SITE_ID = 1
+
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_UNIQUE_EMAIL = True
+ACCOUNT_USER_MODEL_USERNAME_FIELD = None
+ACCOUNT_USERNAME_REQUIRED = False
 
 
 # Static files (CSS, JavaScript, Images)
